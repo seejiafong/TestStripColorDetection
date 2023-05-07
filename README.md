@@ -20,6 +20,11 @@ Assuming you have anaconda installed:
 ## Run Code
 `python ImageProcessing.py hold1_2.jpg`
 
+## Result Verification
+2 parts:
+1. Check that the correct pixels were extracted: look for "6 final.jpg" that was generated
+2. Check that the color matching looks correct: open "color.html" in a browser. The extracted colors may look a bit dull, you can refer back to the input image "hold1_2.jpg" to verify the colors.
+
 ## Known issues
 ### Bug in colormath package:
 
